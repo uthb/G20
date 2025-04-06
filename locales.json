@@ -25,6 +25,19 @@
         "ja": "診断モジュールが<br/>有効です。",
         "ru": "Диагностический модуль <br/>активен.",
         "tr": "Diyagnostik modülü <br/>aktif."
+      },
+      "change_profile": {
+        "pl": "Zmień profil",
+        "en": "Change profile",
+        "de": "Profil ändern",
+        "fr": "Changer de profil",
+        "nl": "Profiel veranderen",
+        "it": "Cambia profilo",
+        "es": "Cambiar perfil",
+        "zh-Hans": "更改个人资料",
+        "ja": "プロフィール変更",
+        "ru": "Изменение профиля",
+        "tr": "Profili değiştir"
       }
     },
     "validLanguages": {
