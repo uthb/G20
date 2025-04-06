@@ -1,0 +1,18 @@
+{
+    "messages": {
+        "start_engine": {
+            "pl": "Aby uruchomić silnik, <br/>wciśnij hamulec.",
+            "en": "To start the engine, <br/>press the brake.",
+            "fr": "Pour démarrer le moteur, <br/>appuyez sur le frein.",
+            "nl": "Om de motor te starten, <br/>druk op de rem.",
+            "de": "Um den Motor zu starten, <br/>drücken Sie die Bremse."
+          },
+          "diagnostic_active": {
+            "pl": "Moduł diagnostyczny <br/>aktywny.",
+            "en": "Diagnostic module <br/>active.",
+            "fr": "Module de diagnostic <br/>actif.",
+            "nl": "Diagnosemodule <br/>actief.",
+            "de": "Diagnosemodul <br/>aktiv."
+          }
+    }
+}
