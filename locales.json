@@ -1,18 +1,31 @@
 {
     "messages": {
-        "start_engine": {
-            "pl": "Aby uruchomić silnik, <br/>wciśnij hamulec.",
-            "en": "To start the engine, <br/>press the brake.",
-            "fr": "Pour démarrer le moteur, <br/>appuyez sur le frein.",
-            "nl": "Om de motor te starten, <br/>druk op de rem.",
-            "de": "Um den Motor zu starten, <br/>drücken Sie die Bremse."
-          },
-          "diagnostic_active": {
-            "pl": "Moduł diagnostyczny <br/>aktywny.",
-            "en": "Diagnostic module <br/>active.",
-            "fr": "Module de diagnostic <br/>actif.",
-            "nl": "Diagnosemodule <br/>actief.",
-            "de": "Diagnosemodul <br/>aktiv."
-          }
+      "start_engine": {
+        "pl": "Aby uruchomić silnik, <br/>wciśnij hamulec.",
+        "en": "To start the engine, <br/>press the brake.",
+        "de": "Um den Motor zu starten, <br/>drücken Sie die Bremse.",
+        "fr": "Pour démarrer le moteur, <br/>appuyez sur le frein.",
+        "nl": "Om de motor te starten, <br/>druk op de rem.",
+        "it": "Per avviare il motore, <br/>premi il freno.",
+        "es": "Para arrancar el motor, <br/>pisa el freno.",
+        "zh-Hans": "启动发动机前，<br/>请踩下刹车。",
+        "ja": "エンジンを始動するには、<br/>ブレーキを踏んでください。",
+        "ru": "Чтобы запустить двигатель, <br/>нажмите на тормоз.",
+        "tr": "Motoru çalıştırmak için, <br/>frene basın."
+      },
+      "diagnostic_active": {
+        "pl": "Moduł diagnostyczny <br/>aktywny.",
+        "en": "Diagnostic module <br/>active.",
+        "de": "Diagnosemodul <br/>aktiv.",
+        "fr": "Module de diagnostic <br/>actif.",
+        "nl": "Diagnosemodule <br/>actief.",
+        "it": "Modulo diagnostico <br/>attivo.",
+        "es": "Módulo de diagnóstico <br/>activo.",
+        "zh-Hans": "诊断模块<br/>已激活。",
+        "ja": "診断モジュールが<br/>有効です。",
+        "ru": "Диагностический модуль <br/>активен.",
+        "tr": "Diyagnostik modülü <br/>aktif."
+      }
     }
-}
+  }
+  
