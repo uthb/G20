@@ -38,6 +38,19 @@
         "ja": "プロフィール変更",
         "ru": "Изменение профиля",
         "tr": "Profili değiştir"
+      },
+      "welcome": {
+        "pl": "Witaj <br/>",
+        "en": "Welcome <br/>",
+        "de": "Wilkommen <br/>",
+        "fr": "Bonjour <br/>",
+        "nl": "Welkom <br/>",
+        "it": "Benvenuti <br/>",
+        "es": "Bienvenido <br/>",
+        "zh-Hans": "欢迎 <br/>",
+        "ja": "ようこそ <br/>",
+        "ru": "Добро пожаловать <br/>",
+        "tr": "Hoşgeldiniz <br/>"
       }
     },
     "validLanguages": {
