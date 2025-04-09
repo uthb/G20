@@ -7,13 +7,15 @@ import requests
 import pyperclip
 from colorama import init, Fore
 from datetime import datetime
+from dotenv import load_dotenv
 
 # Script written by brevvsky, used Stack overflow for some help.
 
+load_dotenv()
 init(autoreset=True)
 
 GITHUB_JSON_FILE = "cluster_serial_codes.json"
-WEBHOOK_URL = "https://discord.com/api/webhooks/1359675223317938438/29eEkC3zylIGKk305LdgvL3c85S2yMBepIts3li6xpF7zxi_-glrceF-B-4Puzd6f3rI" 
+WEBHOOK_URL = os.environ.get("WEBHOOK_URL")
 
 def generate_block(length=4):
     return ''.join(random.choices(string.ascii_uppercase + string.digits, k=length))
