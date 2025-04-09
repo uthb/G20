@@ -16,7 +16,8 @@
         "fi": "Käynnistääksesi moottorin, <br/>paina jarrua.",
         "ga": "Chun an t-inneall a thosú, <br/>brúigh an coscán.",
         "et": "Mootori käivitamiseks <br/>vajuta pidurit.",
-        "lt": "Norėdami užvesti variklį, <br/>paspauskite stabdį."
+        "lt": "Norėdami užvesti variklį, <br/>paspauskite stabdį.",
+        "id": "Untuk menyalakan mesin, <br/>injak rem."
       },
       "diagnostic_active": {
         "pl": "Moduł diagnostyczny <br/>aktywny.",
@@ -34,7 +35,8 @@
         "fi": "Diagnostiikkamoduuli <br/>aktiivinen.",
         "ga": "Modúl diagnóise <br/>gníomhach.",
         "et": "Diagnostikamoodul <br/>aktiivne.",
-        "lt": "Diagnostikos modulis <br/>aktyvus."
+        "lt": "Diagnostikos modulis <br/>aktyvus.",
+        "id": "Modul diagnostik <br/>aktif."
       },
       "change_profile": {
         "pl": "Zmień profil",
@@ -52,7 +54,8 @@
         "fi": "Vaihda profiilia",
         "ga": "Athraigh próifíl",
         "et": "Muuda profiili",
-        "lt": "Keisti profilį"
+        "lt": "Keisti profilį",
+        "id": "Ubah profil"
       },
       "welcome": {
         "pl": "Witaj <br/>",
@@ -70,7 +73,8 @@
         "fi": "Tervetuloa <br/>",
         "ga": "Fáilte <br/>",
         "et": "Tere tulemast <br/>",
-        "lt": "Sveiki atvykę <br/>"
+        "lt": "Sveiki atvykę <br/>",
+        "id": "Selamat datang <br/>"
       }
     },
     "date": {
@@ -90,7 +94,8 @@
         "fi": ["Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai", "Lauantai", "Sunnuntai"],
         "ga": ["Luan", "Máirt", "Céadaoin", "Déardaoin", "Aoine", "Satharn", "Domhnach"],
         "et": ["Esmaspäev", "Teisipäev", "Kolmapäev", "Neljapäev", "Reede", "Laupäev", "Pühapäev"],
-        "lt": ["Pirmadienis", "Antradienis", "Trečiadienis", "Ketvirtadienis", "Penktadienis", "Šeštadienis", "Sekmadienis"]
+        "lt": ["Pirmadienis", "Antradienis", "Trečiadienis", "Ketvirtadienis", "Penktadienis", "Šeštadienis", "Sekmadienis"],
+        "id": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"]
       },
       "months": {
         "pl": ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"],
@@ -108,7 +113,8 @@
         "fi": ["Tammikuu", "Helmikuu", "Maaliskuu", "Huhtikuu", "Toukokuu", "Kesäkuu", "Heinäkuu", "Elokuu", "Syyskuu", "Lokakuu", "Marraskuu", "Joulukuu"],
         "ga": ["Eanáir", "Feabhra", "Márta", "Aibreán", "Bealtaine", "Meitheamh", "Iúil", "Lúnasa", "Meán Fómhair", "Deireadh Fómhair", "Samhain", "Nollaig"],
         "et": ["Jaanuar", "Veebruar", "Märts", "Aprill", "Mai", "Juuni", "Juuli", "August", "September", "Oktoober", "November", "Detsember"],
-        "lt": ["Sausis", "Vasaris", "Kovas", "Balandis", "Gegužė", "Birželis", "Liepa", "Rugpjūtis", "Rugsėjis", "Spalis", "Lapkritis", "Gruodis"]
+        "lt": ["Sausis", "Vasaris", "Kovas", "Balandis", "Gegužė", "Birželis", "Liepa", "Rugpjūtis", "Rugsėjis", "Spalis", "Lapkritis", "Gruodis"],
+        "id": ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
       }
     },
     "validLanguages": {
@@ -127,7 +133,8 @@
         "fi": true,
         "ga": true,
         "et": true,
-        "lt": true
+        "lt": true,
+        "id": true
     }
   }
   
