@@ -10,7 +10,6 @@ GITHUB_JSON_FILE = "cluster_serial_codes.json"
 def generate_block(length=4):
     return ''.join(random.choices(string.ascii_uppercase + string.digits, k=length))
 
-
 def generate_serial_code(prefix):
     blocks = [generate_block() for _ in range(3)]
     return f"{prefix.upper()}-" + '-'.join(blocks)
@@ -49,7 +48,6 @@ def git_commit_and_push(file_path=GITHUB_JSON_FILE):
         print("Serial pushed to GitHub.")
     except subprocess.CalledProcessError:
         print("Git failed.")
-        
         
 def main():
     os.system('cls' if os.name == "nt" else "clear")
