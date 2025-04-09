@@ -11,7 +11,12 @@
         "zh-Hans": "启动发动机前，<br/>请踩下刹车。",
         "ja": "エンジンを始動するには、<br/>ブレーキを踏んでください。",
         "ru": "Чтобы запустить двигатель, <br/>нажмите на тормоз.",
-        "tr": "Motoru çalıştırmak için, <br/>frene basın."
+        "tr": "Motoru çalıştırmak için, <br/>frene basın.",
+        "vi": "Để khởi động động cơ, <br/>hãy đạp phanh.",
+        "fi": "Käynnistääksesi moottorin, <br/>paina jarrua.",
+        "ga": "Chun an t-inneall a thosú, <br/>brúigh an coscán.",
+        "et": "Mootori käivitamiseks <br/>vajuta pidurit.",
+        "lt": "Norėdami užvesti variklį, <br/>paspauskite stabdį."
       },
       "diagnostic_active": {
         "pl": "Moduł diagnostyczny <br/>aktywny.",
@@ -24,7 +29,12 @@
         "zh-Hans": "诊断模块<br/>已激活。",
         "ja": "診断モジュールが<br/>有効です。",
         "ru": "Диагностический модуль <br/>активен.",
-        "tr": "Diyagnostik modülü <br/>aktif."
+        "tr": "Diyagnostik modülü <br/>aktif.",
+        "vi": "Mô-đun chẩn đoán <br/>đang hoạt động.",
+        "fi": "Diagnostiikkamoduuli <br/>aktiivinen.",
+        "ga": "Modúl diagnóise <br/>gníomhach.",
+        "et": "Diagnostikamoodul <br/>aktiivne.",
+        "lt": "Diagnostikos modulis <br/>aktyvus."
       },
       "change_profile": {
         "pl": "Zmień profil",
@@ -37,7 +47,12 @@
         "zh-Hans": "更改个人资料",
         "ja": "プロフィール変更",
         "ru": "Изменение профиля",
-        "tr": "Profili değiştir"
+        "tr": "Profili değiştir",
+        "vi": "Thay đổi hồ sơ",
+        "fi": "Vaihda profiilia",
+        "ga": "Athraigh próifíl",
+        "et": "Muuda profiili",
+        "lt": "Keisti profilį"
       },
       "welcome": {
         "pl": "Witaj <br/>",
@@ -50,7 +65,12 @@
         "zh-Hans": "欢迎 <br/>",
         "ja": "ようこそ <br/>",
         "ru": "Добро пожаловать <br/>",
-        "tr": "Hoşgeldiniz <br/>"
+        "tr": "Hoşgeldiniz <br/>",
+        "vi": "Chào mừng <br/>",
+        "fi": "Tervetuloa <br/>",
+        "ga": "Fáilte <br/>",
+        "et": "Tere tulemast <br/>",
+        "lt": "Sveiki atvykę <br/>"
       }
     },
     "date": {
@@ -65,7 +85,12 @@
         "zh-Hans": ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"],
         "ja": ["月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日", "日曜日"],
         "ru": ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"],
-        "tr": ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar"]
+        "tr": ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar"],
+        "vi": ["Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy", "Chủ Nhật"],
+        "fi": ["Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai", "Lauantai", "Sunnuntai"],
+        "ga": ["Luan", "Máirt", "Céadaoin", "Déardaoin", "Aoine", "Satharn", "Domhnach"],
+        "et": ["Esmaspäev", "Teisipäev", "Kolmapäev", "Neljapäev", "Reede", "Laupäev", "Pühapäev"],
+        "lt": ["Pirmadienis", "Antradienis", "Trečiadienis", "Ketvirtadienis", "Penktadienis", "Šeštadienis", "Sekmadienis"]
       },
       "months": {
         "pl": ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"],
@@ -78,7 +103,12 @@
         "zh-Hans": ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"],
         "ja": ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
         "ru": ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
-        "tr": ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]
+        "tr": ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"],
+        "vi": ["Tháng Một", "Tháng Hai", "Tháng Ba", "Tháng Tư", "Tháng Năm", "Tháng Sáu", "Tháng Bảy", "Tháng Tám", "Tháng Chín", "Tháng Mười", "Tháng Mười Một", "Tháng Mười Hai"],
+        "fi": ["Tammikuu", "Helmikuu", "Maaliskuu", "Huhtikuu", "Toukokuu", "Kesäkuu", "Heinäkuu", "Elokuu", "Syyskuu", "Lokakuu", "Marraskuu", "Joulukuu"],
+        "ga": ["Eanáir", "Feabhra", "Márta", "Aibreán", "Bealtaine", "Meitheamh", "Iúil", "Lúnasa", "Meán Fómhair", "Deireadh Fómhair", "Samhain", "Nollaig"],
+        "et": ["Jaanuar", "Veebruar", "Märts", "Aprill", "Mai", "Juuni", "Juuli", "August", "September", "Oktoober", "November", "Detsember"],
+        "lt": ["Sausis", "Vasaris", "Kovas", "Balandis", "Gegužė", "Birželis", "Liepa", "Rugpjūtis", "Rugsėjis", "Spalis", "Lapkritis", "Gruodis"]
       }
     },
     "validLanguages": {
@@ -92,7 +122,12 @@
         "zh-Hans": true,
         "ja": true,
         "ru": true,
-        "tr": true
+        "tr": true,
+        "vi": true,
+        "fi": true,
+        "ga": true,
+        "et": true,
+        "lt": true
     }
   }
   
