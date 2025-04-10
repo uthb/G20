@@ -26,7 +26,7 @@ def get_roblox_user(user_id):
     except Exception as e:
         print("failed to fetch roblox user:", e)
         return None
-    
+
 def save_to_json(user_id, serial_code, file_path=GITHUB_JSON_FILE):
     data = {}
     if os.path.exists(file_path):
@@ -41,6 +41,23 @@ def save_to_json(user_id, serial_code, file_path=GITHUB_JSON_FILE):
     with open(file_path, "w") as f:
         json.dump(data, f, indent=4)
 
+def remove_from_json(user_id, file_path=GITHUB_JSON_FILE):
+    data = {}
+    if os.path.exists(file_path):
+        with open(file_path, "r") as f:
+            try:
+                data = json.load(f)
+            except json.JSONDecodeError:
+                pass
+
+    if str(user_id) in data:
+        del data[str(user_id)]
+        with open(file_path, "w") as f:
+            json.dump(data, f, indent=4)
+        print(f"Removed serial code for user {user_id}.")
+    else:
+        print(f"No serial code found for user {user_id}.")
+
 def git_commit_and_push(file_path=GITHUB_JSON_FILE):
     try:
         subprocess.run(["git", "add", file_path], check=True)
@@ -49,46 +66,62 @@ def git_commit_and_push(file_path=GITHUB_JSON_FILE):
         print("Serial pushed to GitHub.")
     except subprocess.CalledProcessError:
         print("Git failed.")
-        
+
 def main():
     os.system('cls' if os.name == "nt" else "clear")
     print("G20 Serial Code Register by brevvsky.")
 
-    try:
-        user_id = int(input("Enter Roblox UserId: ").strip())
-    except ValueError:
-        print("Invalid UserId. Must be a number.")
-        return
+    action = input("Do you want to add (a) or remove (r) a serial code? ").strip().lower()
 
-    user_data = get_roblox_user(user_id)
-    if not user_data:
-        print("Could not find user with that ID.")
-        return
+    if action == 'a':
+        try:
+            user_id = int(input("Enter Roblox UserId: ").strip())
+        except ValueError:
+            print("Invalid UserId. Must be a number.")
+            return
 
-    print(f"\nFound user: {user_data['name']} ({user_data['displayName']})")
-    print(f"Profile: https://www.roblox.com/users/{user_id}/profile")
-    confirm = input("Do you want to add this player to the serial list? (y/n): ").strip().lower()
+        user_data = get_roblox_user(user_id)
+        if not user_data:
+            print("Could not find user with that ID.")
+            return
 
-    if confirm != 'y':
-        print("Cancelled.")
-        return
+        print(f"\nFound user: {user_data['name']} ({user_data['displayName']})")
+        print(f"Profile: https://www.roblox.com/users/{user_id}/profile")
+        confirm = input("Do you want to add this player to the serial list? (y/n): ").strip().lower()
 
-    prefix = input("Enter a prefix for the serial code (1–6 characters): ").strip()
-    if not (1 <= len(prefix) <= 6) or not prefix.isalnum():
-        print("Invalid prefix. Must be 1-6 alphanumeric characters.")
-        return
+        if confirm != 'y':
+            print("Cancelled.")
+            return
 
-    serial_code = generate_serial_code(prefix)
-    print(f"\n Generated Serial Code for {user_data['name']}: {serial_code}")
+        prefix = input("Enter a prefix for the serial code (1–6 characters): ").strip()
+        if not (1 <= len(prefix) <= 6) or not prefix.isalnum():
+            print("Invalid prefix. Must be 1-6 alphanumeric characters.")
+            return
 
-    try:
-        pyperclip.copy(serial_code)
-        print("Serial code copied to clipboard.")
-    except Exception as e:
-        print("Failed to copy to clipboard:", e)
+        serial_code = generate_serial_code(prefix)
+        print(f"\n Generated Serial Code for {user_data['name']}: {serial_code}")
 
-    save_to_json(user_id, serial_code)
-    git_commit_and_push()
+        try:
+            pyperclip.copy(serial_code)
+            print("Serial code copied to clipboard.")
+        except Exception as e:
+            print("Failed to copy to clipboard:", e)
+
+        save_to_json(user_id, serial_code)
+        git_commit_and_push()
+
+    elif action == 'r':
+        try:
+            user_id = int(input("Enter Roblox UserId to remove serial code: ").strip())
+        except ValueError:
+            print("Invalid UserId. Must be a number.")
+            return
+
+        remove_from_json(user_id)
+        git_commit_and_push()
+
+    else:
+        print("Invalid choice. Please choose 'a' to add or 'r' to remove.")
 
 if __name__ == "__main__":
     main()
