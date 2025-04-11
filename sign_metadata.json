@@ -1,5 +1,19 @@
 {
     "global": {
-        "nolimit": ""
+        "nolimit": "rbxassetid://88944146524090"
+    },
+    "countries": {
+        "Germany": {
+            "speed_limits": {
+                "30": "rbxassetid://105062369399043",
+                "50": "rbxassetid://103772249197449",
+                "60": "rbxassetid://119654716808176",
+                "70": "rbxassetid://81549695085952",
+                "80": "rbxassetid://93184213770566",
+                "100": "rbxassetid://87463566939236",
+                "120": "rbxassetid://119188339742470",
+                "130": "rbxassetid://96278051336024"
+            }
+        }
     }
 }
