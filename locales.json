@@ -76,6 +76,25 @@
         "lt": "Sveiki atvykę <br/>",
         "id": "Selamat datang <br/>"
       },
+      "unknown_album_artist": {
+        "pl": ["Nieznany wykonawca", "Nieznany album"],
+        "en": ["Unknown artist", "Unknown album"],
+        "de": ["Unbekannter Künstler", "Unbekanntes Album"],
+        "fr": ["Artiste inconnu", "Album inconnu"],
+        "nl": ["Onbekende artiest", "Onbekend album"],
+        "it": ["Artista sconosciuto", "Album sconosciuto"],
+        "es": ["Artista desconocido", "Álbum desconocido"],
+        "zh-Hans": ["未知艺术家", "未知专辑"],
+        "ja": ["不明なアーティスト", "不明なアルバム"],
+        "ru": ["Неизвестный исполнитель", "Неизвестный альбом"],
+        "tr": ["Bilinmeyen sanatçı", "Bilinmeyen albüm"],
+        "vi": ["Nghệ sĩ không xác định", "Album không xác định"],
+        "fi": ["Tuntematon artisti", "Tuntematon albumi"],
+        "ga": ["Ealaíontóir anaithnid", "Albam anaithnid"],
+        "et": ["Tundmatu artist", "Tundmatu album"],
+        "lt": ["Nežinomas atlikėjas", "Nežinomas albumas"],
+        "id": ["Artis tidak dikenal", "Album tidak dikenal"]
+      },
       "dm_description": {
         "pl": ["Ustawienie komfortowe", "Ustawienie dynamiczne", "Ustawienie wydajnej jazdy"],
         "en": ["Comfort Setting", "Dynamic Setting", "Efficient Driving Setting"],
