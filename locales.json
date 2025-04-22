@@ -132,6 +132,10 @@
         "et": "Seadista INDIVIDUAL",
         "lt": "Konfigūruoti INDIVIDUAL",
         "id": "Konfigurasikan INDIVIDUAL"
+      },
+      "odo_since": {
+        "pl": "od określonego czasu",
+        "en": "since"
       }
     },
     "date": {
